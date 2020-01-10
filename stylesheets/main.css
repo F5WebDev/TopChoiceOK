@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.alt-container {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  margin-top: 140px;
+}
+
+/*below the navbar*/
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 30px;
+
+/*  for animation*/
+  position: relative;
+  left: -100%;
+/*  animation: slideIn 1s forwards;*/
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.main-container h1 {
+  font-size: 44px;
+}
+.main-container h2 {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+/*slide in animation*/
+@keyframes slideIn {
+  0% { left: -100%; transform: rotate(0deg); }
+  90% { left: 10%; transform: rotate(0deg); }
+  100% { left: 0%; transform: rotate(0deg); }
+}
+
+.banner-buttons {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+
+  /*  for animation*/
+  position: relative;
+  left: -100%;
+  /*animation: slideIn 1s 1s forwards;*/
+  animation: slideIn 1s forwards;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+#services-btn {
+  border: 2px solid black;
+  background: white;
+  color: black;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+
+  background-image: linear-gradient(to right, black 50%, transparent 0%);
+  background-position: 100% 0%;
+  background-size: 200% 100%;
+  transition: 1s;
+}
+#services-btn:hover {
+  color: white;
+  background-position: 0% 50%;
+}
+
+#estimates-btn {
+  border: 1px solid blue;
+  background: blue;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+
+/*start of main section below banner*/
+.lower-container {
+  width: 90%;
+  margin: 0 auto;
+}
+#small-blue-divider {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background: blue;
+  height: 2px;
+  width: 30%;
+}
+.our-services {
+  margin-bottom: 50px;
+}
+.our-services h1 {
+  margin-bottom: 10px;
+}
+.free-estimates {
+  margin-bottom: 50px;
+}
+.free-estimates p {
+  font-size: 36px;
+}
+#grey-text-small {
+  color: grey;
+  font-size: 28px;
+}
+#grey-text {
+  color: grey;
+}
+#blue-text {
+  color: blue;
+  font-weight: bolder;
+}

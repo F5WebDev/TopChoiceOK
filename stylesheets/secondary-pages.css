@@ -1,0 +1,19 @@
+#black-text {
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.secondary-pages-container {
+  padding-top: 150px;
+  width: 90%;
+  margin: 0 auto;
+}
+.secondary-pages-container h1 {
+  color: white;
+  text-align: center;
+}
+
+.secondary-pages-container img {
+  width: 100%;
+}
