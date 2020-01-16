@@ -1,0 +1,9 @@
+@media screen and (min-width: 800px) {
+  .desktop-icon-flex {
+    width: 100%;
+    display: flex;
+  }
+  .icon-block {
+    width: 34%;
+  }
+}

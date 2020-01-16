@@ -35,6 +35,14 @@
 #big-blue-text {
   color: blue;
 }
+#vertical-blue-line {
+  margin-top: 100px;
+  background: blue;
+  height: 5px;
+  width: 50px;
+  position: relative;
+  left: 45%;
+}
 
 
 
@@ -141,7 +149,7 @@
 
 .our-services {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-bottom: 50px;
 }
 .our-services h1 {
