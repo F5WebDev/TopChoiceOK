@@ -139,14 +139,6 @@
 
 
 /*we specialize in*/
-#small-blue-divider {
-  margin-top: 80px;
-  margin-bottom: 80px;
-  background: blue;
-  height: 2px;
-  width: 30%;
-}
-
 .our-services {
   text-align: center;
   margin-top: 20px;
