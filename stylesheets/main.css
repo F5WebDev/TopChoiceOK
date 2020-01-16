@@ -5,7 +5,7 @@
 
 /*site wide tags*/
 #blue-background {
-  background: blue;
+  background: #0f4c75;
 }
 #grey-background {
   background: grey;
@@ -29,15 +29,15 @@
   color: grey;
 }
 #blue-text {
-  color: blue;
+  color: #0f4c75;
   font-weight: bolder;
 }
 #big-blue-text {
-  color: blue;
+  color: #0f4c75;
 }
 #vertical-blue-line {
   margin-top: 100px;
-  background: blue;
+  background: #0f4c75;
   height: 5px;
   width: 50px;
   position: relative;
@@ -127,8 +127,8 @@
 }
 
 #estimates-btn {
-  border: 1px solid blue;
-  background: blue;
+  border: 1px solid #0f4c75;
+  background: #0f4c75;
   color: white;
   padding: 15px;
   font-size: 18px;
