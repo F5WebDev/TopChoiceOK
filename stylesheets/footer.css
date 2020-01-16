@@ -1,10 +1,37 @@
 footer {
   background: #0f4c75;
-  height: 300px;
+  height: 100%;
   color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer-container-header {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#footer-container-action {
+  font-size: 28px;
+}
+
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.footer-container-block {
+  margin-bottom: 30px;
+}
+.footer-container-block i {
+  color: white;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.copyright {
+  margin-top: 100px;
+}
+.copyright p {
+  font-size: 12px;
 }
