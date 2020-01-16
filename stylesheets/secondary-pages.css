@@ -13,7 +13,39 @@
   color: white;
   text-align: center;
 }
-
 .secondary-pages-container img {
   width: 100%;
+}
+
+
+
+/*bootstrap carousel cards*/
+.secondary-page-service-card {
+  margin-bottom: 50px;
+}
+
+.secondary-page-service-card-top {
+
+}
+.secondary-page-service-card-top img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.secondary-page-service-card-banner {
+  background: #0f4c75;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+.secondary-page-service-card-bottom {
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+}
+.secondary-page-service-card-bottom-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
