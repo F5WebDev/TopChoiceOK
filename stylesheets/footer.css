@@ -23,6 +23,11 @@ footer {
 .footer-container-block {
   margin-bottom: 30px;
 }
+.footer-container-block a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
 .footer-container-block i {
   color: white;
   font-size: 40px;
