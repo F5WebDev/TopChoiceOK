@@ -3,6 +3,42 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+/*site wide tags*/
+#blue-background {
+  background: blue;
+}
+#grey-background {
+  background: grey;
+}
+#black-background {
+  background: black;
+}
+#header {
+  color: black;
+  font-size: 40px;
+}
+#white-text {
+  color: white;
+  font-size: 40px;
+}
+#black-text {
+  color: black;
+  font-size: 40px;
+}
+#grey-text {
+  color: grey;
+}
+#blue-text {
+  color: blue;
+  font-weight: bolder;
+}
+#big-blue-text {
+  color: blue;
+}
+
+
+
+
 .alt-container {
   background-size: cover;
   background-position: center;
@@ -94,11 +130,7 @@
 }
 
 
-/*start of main section below banner*/
-.lower-container {
-  width: 90%;
-  margin: 0 auto;
-}
+/*we specialize in*/
 #small-blue-divider {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -106,26 +138,43 @@
   height: 2px;
   width: 30%;
 }
+
 .our-services {
+  text-align: center;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 .our-services h1 {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
+
+.icon-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.icon-block img {
+  height: 200px;
+}
+
+
+/*start of main section below banner*/
+.lower-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.lower-container h2 {
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+
+
+
 .free-estimates {
   margin-bottom: 50px;
 }
 .free-estimates p {
   font-size: 36px;
-}
-#grey-text-small {
-  color: grey;
-  font-size: 28px;
-}
-#grey-text {
-  color: grey;
-}
-#blue-text {
-  color: blue;
-  font-weight: bolder;
 }
