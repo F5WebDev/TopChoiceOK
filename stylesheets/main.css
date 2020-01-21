@@ -178,6 +178,10 @@
 
 .free-estimates {
   margin-bottom: 50px;
+  background-color: lightgrey;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .free-estimates p {
   font-size: 36px;
@@ -190,9 +194,46 @@
 
 
 
+.lower-container {
+  width: 90%;
+  margin: 0 auto;
+}
+/*the top choice - experience*/
+.the-top-choice {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#the-top-choice-header {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.the-top-choice-item {
+  display: flex;
+  align-items: center;
+}
+.the-top-choice-item p {
+  font-size: 18px;
+}
+.the-top-choice-item img {
+  height: 60px;
+}
+
+
+
 /*facebook*/
 .facebook-mobile {
   width: 95%;
   margin: 0 auto;
   padding-bottom: 50px;
+}
+.follow-us {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0f4c75;
+  font-size: 32px;
+  font-weight: bolder;
 }
