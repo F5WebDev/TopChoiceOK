@@ -4,6 +4,23 @@
   margin-bottom: 50px;
 }
 
+.shingle-types {
+  height: 100%;
+  margin: 0 auto;
+}
+.shingle-block {
+}
+.shingle-block img {
+  height: 100px;
+}
+
+
+#margin-left {
+  margin-left: 20px;
+}
+.carousel-caption {
+  color: white;
+}
 .secondary-pages-container {
   padding-top: 150px;
   width: 90%;
