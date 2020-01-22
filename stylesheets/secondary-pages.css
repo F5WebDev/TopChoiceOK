@@ -4,6 +4,9 @@
   margin-bottom: 50px;
 }
 
+.shingle-companies {
+  margin-bottom: 0;
+}
 .shingle-types {
   height: 100%;
   margin: 0 auto;
@@ -17,6 +20,7 @@
 
 #margin-left {
   margin-left: 20px;
+  text-decoration: none;
 }
 .carousel-caption {
   color: white;
@@ -65,4 +69,52 @@
   text-align: left;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+
+
+/*insurance claims process*/
+.insurance-claims {
+  width: 90%;
+  margin: 0 auto;
+}
+.insurance-process {
+
+}
+.insurance-process p {
+  text-align: center;
+  margin: 0;
+  font-size: 24px;
+}
+.insurance-process img {
+
+}
+.insurance-claims-buttons {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.insurance-claims-buttons p {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+#claims-lower-text {
+  font-size: 16px;
+}
+.clickable-insurance-image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.clickable-insurance-image img {
+  width: 100%;
+}
+#progressive {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#smaller-insurance-logo {
+  height: 100px;
+}
+#smaller-insurance-logo img {
+  height: 200px;
 }
