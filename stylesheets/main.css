@@ -2,6 +2,11 @@
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 #small-text {
   font-size: 16px;
   color: white;
@@ -163,7 +168,12 @@
 .icon-block img {
   height: 200px;
 }
-
+#smooth-scroll-icon {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin: 0;
+}
 
 /*start of main section below banner*/
 .lower-container {
