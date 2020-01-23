@@ -1,4 +1,9 @@
 @media screen and (min-width: 800px) {
+  #center-text {
+    text-align: center;
+    font-size: 40px;
+  }
+
   /*navbar*/
   #mobile-call-button {
     display: none;
@@ -24,13 +29,26 @@
     display: block;
      background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 85vh;
     margin-top: 140px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+
+  .below-banner {
+    margin-top: 0;
+    width: 100%;
+    height: 40vh;
+    background: #0f4c75;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
   .below-banner-top {
     width: 80%;
@@ -44,10 +62,29 @@
     margin-top: 0;
     font-size: 32px;
     margin-bottom: 30px;
-    text-align: center;
   }
   .banner-buttons {
     display: none;
+  }
+  #vertical-blue-line {
+    display: none;
+  }
+  .desktop-services-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 30vh;
+  }
+  #desktop-line {
+    display: block;
+    background: #0f4c75;
+    height: 5px;
+    width: 250px;
+  }
+  #header {
+    margin-bottom: 10px;
   }
 
 
@@ -93,5 +130,55 @@
 
   .lower-container {
     height: 100%;
+  }
+
+
+
+  /*what makes us the top choice */
+  .the-top-choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .the-top-choice-item {
+    width: 30%;
+  }
+  .the-top-choice-item img {
+    height: 80px;
+  }
+
+
+
+  /*google reviews*/
+  .google-reviews {
+    display: none;
+  }
+  .google-reviews-desktop {
+    display: block;
+    width: 100%;
+    padding-top: 40px;
+  }
+
+
+
+  /*facebook*/
+  .facebook-mobile {
+    display: none;
+  }
+  .facebook-desktop {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 }

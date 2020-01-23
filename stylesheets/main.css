@@ -52,6 +52,9 @@ html {
   position: relative;
   left: 45%;
 }
+#desktop-line {
+  display: none;
+}
 
 #desktop-call {
   display: none;
@@ -243,6 +246,9 @@ google*/
 .google-reviews {
   margin-top: 40px;
 }
+.google-reviews-desktop {
+  display: none;
+}
 
 
 /*facebook*/
@@ -250,6 +256,9 @@ google*/
   width: 95%;
   margin: 0 auto;
   padding-bottom: 50px;
+}
+.facebook-desktop {
+  display: none;
 }
 .follow-us {
   margin-bottom: 20px;
