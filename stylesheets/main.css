@@ -109,7 +109,7 @@
   animation-delay: 1s;
   animation-fill-mode: forwards;
 }
-#services-btn {
+/*#services-btn {
   border: 2px solid black;
   background: white;
   color: black;
@@ -128,7 +128,7 @@
 #services-btn:hover {
   color: white;
   background-position: 0% 50%;
-}
+}*/
 
 #estimates-btn {
   border: 1px solid #0f4c75;
@@ -139,6 +139,7 @@
   border-radius: 5px;
   text-decoration: none;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 100%;
 }
 
 
