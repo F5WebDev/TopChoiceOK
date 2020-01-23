@@ -1,0 +1,12 @@
+@media screen and (min-width: 800px) {
+  .secondary-pages-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .secondary-page-service-card {
+    width: 40%;
+  }
+}

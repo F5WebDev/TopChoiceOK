@@ -1,7 +1,9 @@
 #black-text {
   color: black;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 200px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .shingle-companies {
@@ -26,7 +28,7 @@
   color: white;
 }
 .secondary-pages-container {
-  padding-top: 150px;
+  padding-top: 50px;
   width: 90%;
   margin: 0 auto;
 }
