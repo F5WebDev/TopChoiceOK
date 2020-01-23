@@ -53,10 +53,14 @@ html {
   left: 45%;
 }
 
+#desktop-call {
+  display: none;
+}
 
-
-
-.alt-container {
+.desktop-banner {
+  display: none;
+}
+.mobile-banner {
   background-size: cover;
   background-position: center;
   height: 250px;
@@ -64,7 +68,7 @@ html {
 }
 
 /*below the navbar*/
-.main-container {
+.below-banner {
   width: 90%;
   margin: 0 auto;
   text-align: left;
@@ -79,10 +83,10 @@ html {
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
-.main-container h1 {
+.below-banner h1 {
   font-size: 44px;
 }
-.main-container h2 {
+.below-banner h2 {
   margin-top: 10px;
   text-align: left;
   font-size: 20px;
@@ -95,6 +99,7 @@ html {
   90% { left: 10%; transform: rotate(0deg); }
   100% { left: 0%; transform: rotate(0deg); }
 }
+
 
 .banner-buttons {
   width: 90%;

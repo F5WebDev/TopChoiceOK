@@ -1,9 +1,97 @@
 @media screen and (min-width: 800px) {
+  /*navbar*/
+  #mobile-call-button {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .nav img {
+    margin-right: 20px;
+  }
+  #desktop-call {
+    display: block;
+    color: #0f4c75;
+    font-size: 32px;
+  }
+
+  /*banner*/
+  .mobile-banner {
+    display: none;
+  }
+  .desktop-banner {
+    display: block;
+     background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin-top: 140px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .below-banner-top {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .below-banner-top h1 {
+    margin-top: 0;
+    font-size: 50px;
+  }
+  .below-banner-top h2 {
+    margin-top: 0;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .banner-buttons {
+    display: none;
+  }
+
+
+  /*we specialize in boxes*/
   .desktop-icon-flex {
     width: 100%;
     display: flex;
   }
   .icon-block {
     width: 34%;
+  }
+
+
+
+  /*service cards*/
+  .desktop-service-card-flex {
+    display: flex;
+  }
+  .service-card {
+    width: 45%;
+    height: 100%;
+    margin-bottom: 100px;
+  }
+  .service-card .upper-card-container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .service-card .lower-card {
+    height: 220px;
+  }
+  #desktop-services-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #desktop-services-flex li {
+    margin-right: 10px;
+  }
+  #remove {
+    display: none;
+  }
+
+  .lower-container {
+    height: 100%;
   }
 }
