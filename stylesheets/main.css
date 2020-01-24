@@ -7,9 +7,15 @@ html {
   scroll-behavior: smooth;
 }
 
+#extra-margin-btm {
+  margin-bottom: 70px;
+}
 #small-text {
   font-size: 16px;
   color: white;
+}
+#desktop-service-cards {
+  display: none;
 }
 
 /*site wide tags*/

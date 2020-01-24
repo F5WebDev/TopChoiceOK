@@ -113,6 +113,12 @@
 
 
   /*we specialize in boxes*/
+  #mobile-service-cards {
+    display: none;
+  }
+  #desktop-service-cards {
+    display: block;
+  }
   .desktop-icon-flex {
     width: 100%;
     display: flex;
@@ -122,7 +128,9 @@
   }
 
 
-
+  .mobile-services-header {
+    display: none;
+  }
   /*service cards*/
   .desktop-service-card-flex {
     display: flex;
