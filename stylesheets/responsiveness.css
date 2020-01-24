@@ -9,17 +9,22 @@
     display: none;
   }
   .nav {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   .left-nav-block {
+    width: 50%;
     display: block;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
   }
   .right-nav-block {
-    display: block;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
   }
   .right-nav-block a {
     background: white;
