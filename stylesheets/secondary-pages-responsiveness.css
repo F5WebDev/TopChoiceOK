@@ -17,15 +17,22 @@
     text-align: center;
     font-size: 28px;
   }
+  .insurance-claims {
+    margin-top: 100px;
+  }
+  .insurance-claims p {
+    font-size: 40px;
+  }
   .insurance-claims-buttons {
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
   }
   .clickable-insurance-image img {
-    width: 50%;
+    width: 150px;
   }
 }
