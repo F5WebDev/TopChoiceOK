@@ -9,4 +9,23 @@
   .secondary-page-service-card {
     width: 40%;
   }
+
+
+
+  /*insurance cliams */
+  .start-a-claim {
+    text-align: center;
+    font-size: 28px;
+  }
+  .insurance-claims-buttons {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .clickable-insurance-image img {
+    width: 50%;
+  }
 }

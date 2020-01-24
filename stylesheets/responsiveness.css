@@ -10,10 +10,29 @@
   }
   .nav {
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .left-nav-block {
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+  .right-nav-block {
+    display: block;
+  }
+  .right-nav-block a {
+    background: white;
+    border: 2px solid #0f4c75;
+    color: #0f4c75;
+    font-weight: bolder;
+    padding: 15px;
+  }
+  .right-nav-block a:hover {
+    background: #0f4c75;
+    color: white;
   }
   .nav img {
-    margin-right: 20px;
   }
   #desktop-call {
     display: block;
@@ -137,16 +156,25 @@
 
 
   /*what makes us the top choice */
-  .the-top-choice {
+  /*.the-top-choice {
     display: flex;
-    align-items: center;
-    justify-content: center;
+  }*/
+  .desktop-image-flex {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .the-top-choice-item {
+    display: flex;
+    flex-direction: column;
     width: 30%;
+    text-align: center;
+  }
+  .the-top-choice-item p {
+    font-size: 20px;
   }
   .the-top-choice-item img {
-    height: 80px;
+    height: 140px;
   }
 
 
@@ -178,9 +206,11 @@
 
   .footer-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+  .google-map {
+    display: none;
   }
 }

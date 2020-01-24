@@ -13,6 +13,10 @@ html {
 }
 
 /*site wide tags*/
+#white-background {
+  background: white;
+  border: none;
+}
 #blue-background {
   background: #0f4c75;
 }
