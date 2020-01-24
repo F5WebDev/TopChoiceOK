@@ -80,8 +80,10 @@
   width: 90%;
   margin: 0 auto;
 }
-.insurance-process {
-
+.start-a-claim {
+  text-align: center;
+  margin: 0;
+  font-size: 24px;
 }
 .insurance-process p {
   text-align: center;
