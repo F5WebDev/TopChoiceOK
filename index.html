@@ -43,20 +43,31 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav class="nav">
-      <div class="left-nav-block">
-        <a id="white-background" href="index.html"><img src="images/logo.png" alt=""></a>
-        <a id="mobile-call-button" href="tel:+19188991222">Call Now</a>
-        <span id="desktop-call">(918) 899-1222</span>
-      </div>
-      <div class="right-nav-block">
-        <a href="#big-blue-text"><i class="fas fa-home"></i> Our Services</a>
-        <a href="#reviews-yes"><i class="fab fa-google"></i> Reviews</a>
-        <a href="#facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
-      </div>
-    </nav>
-  </header>
+
+  <nav class="mobile-nav">
+
+    <div class="dropdown">
+
+      <button><a id="home" href="index.html"><img src="images/logo.png" alt=""></a></button>
+
+        <div class="products">
+          <button id="navbar-click"><i class="fas fa-grip-lines"></i></button>
+          <ul>
+            <li><a href="roofing.html">Residential Roofing</a></li>
+            <hr id="small-white-line">
+            <li><a id="indented-li" href="insurance.html"> Insurance Claims</a></li>
+            <li><a id="indented-li" href="shingles.html"> Choose Your Shingle</a></li>
+            <hr id="small-white-line">
+            <li><a href="commercial-roofing.html">Commercial Roofing</a></li>
+            <li><a href="remodeling.html">Remodeling</a></li>
+            <li><a href="restoration.html">Restoration</a></li>
+            <li><a href="siding.html">Siding</a></li>
+            <li><a href="painting.html">Painting</a></li>
+          </ul>
+        </div>
+
+    </div>
+  </nav>
 
   <div class="mobile-banner" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/topchoice-banner1.jpg)">
   </div>
@@ -163,7 +174,7 @@
     </div>
 
     <div class="card-product">
-      <a href="remodeling.html">
+      <a href="painting.html">
         <img src="images/painting1.jpeg" />
         <div class="card-product-infos">
           <h2>Painting</h2>
@@ -173,7 +184,7 @@
     </div>
 
     <div id="extra-margin-btm" class="card-product">
-      <a href="remodeling.html">
+      <a href="siding.html">
         <img src="images/siding2.jpeg" />
         <div class="card-product-infos">
           <h2>Siding</h2>
@@ -255,7 +266,7 @@
             </div>
 
             <div class="learn-more-btn">
-              <a href="tel:+19188991222">FREE Estimate</a>
+              <a href="commercial-roofing.html">Learn More</a>
             </div>
 
           </div>

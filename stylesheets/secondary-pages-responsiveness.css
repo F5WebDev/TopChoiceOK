@@ -6,8 +6,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .secondary-page-service-card {
-    width: 40%;
+  .slideshow-container img {
+    height: 500px;
+    object-fit: cover;
   }
 
 

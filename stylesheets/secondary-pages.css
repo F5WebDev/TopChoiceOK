@@ -13,13 +13,9 @@
   height: 100%;
   margin: 0 auto;
 }
-.shingle-block {
+#margin-top {
+  margin-top: 50px;
 }
-.shingle-block img {
-  height: 100px;
-}
-
-
 #margin-left {
   margin-left: 20px;
   text-decoration: none;
@@ -27,50 +23,58 @@
 .carousel-caption {
   color: white;
 }
+.shingles-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
 .secondary-pages-container {
-  padding-top: 50px;
+  padding-top: 20px;
   width: 90%;
   margin: 0 auto;
 }
 .secondary-pages-container h1 {
-  color: white;
+  color: black;
   text-align: center;
 }
 .secondary-pages-container img {
   width: 100%;
 }
 
-
-
-/*bootstrap carousel cards*/
-.secondary-page-service-card {
+.residential-roofing-headers {
+  text-align: center;
+  margin-bottom: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+.residential-roofing-headers p {
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 
-.secondary-page-service-card-top {
-
-}
-.secondary-page-service-card-top img {
-  height: 300px;
-  object-fit: cover;
-}
-
-.secondary-page-service-card-banner {
-  background: #0f4c75;
-  color: white;
-  text-align: center;
-  font-size: 24px;
-}
-
-.secondary-page-service-card-bottom {
-  box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
-}
-.secondary-page-service-card-bottom-container {
-  width: 90%;
+.services-list {
+  width: 80%;
   margin: 0 auto;
   text-align: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
+}
+.center-flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondary-page-btn {
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid #0f4c75;
+  background: #0f4c75;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+  margin-bottom: 50px;
+}
+.secondary-page-btn a {
+  color: white;
+  text-decoration: none;
 }
 
 

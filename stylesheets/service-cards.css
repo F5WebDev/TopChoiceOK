@@ -18,11 +18,14 @@
 }
 
 /*moible service cards*/
+.card-product {
+  width: 100%;
+  box-shadow: 0 15px 15px rgba(0,0,0,0.2);
+}
 .card-product a {
   overflow: hidden;
   height: 200px;
   background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -32,7 +35,7 @@
 
 .card-product img {
   height: 100%;
-  width: 120px;
+  width: 40%;
   object-fit: cover;
 }
 
@@ -51,6 +54,7 @@
 }
 
 .card-product .card-product-infos {
+  width: 60%;
   padding: 16px;
 }
 
