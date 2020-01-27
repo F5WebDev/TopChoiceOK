@@ -1,30 +1,13 @@
-const navSlide = () => {
-  const burger = document.querySelector('.mobile-burger');
-  const nav = document.querySelector('.nav-links');
-  const navLinks = document.querySelectorAll('.nav-links li');
-  // Toogle Nav
+document.getElementById("navbarClick").addEventListener("click", myFunction);
 
-  burger.addEventListener('click', ()=>{
-      nav.classList.toggle('nav-active');
-      navLinks.forEach((link, index) => {
-        if (link.style.animation){
-          link.style.animation = ""
-        } else {
-          link.style.animation = `navLinkFade 0.0s ease forwards ${index / 1 + 0.1}s`;
-        }
-      });
-      //burger animation
-      burger.classList.toggle(`toggle`);
-  });
-
+function myFunction() {
+  document.getElementById("unorderedList").style = "opacity: 1";
+  document.getElementById("listItem1").style = "pointer-events: all";
+  document.getElementById("listItem2").style = "pointer-events: all";
+  document.getElementById("listItem3").style = "pointer-events: all";
+  document.getElementById("listItem4").style = "pointer-events: all";
+  document.getElementById("listItem5").style = "pointer-events: all";
+  document.getElementById("listItem6").style = "pointer-events: all";
+  document.getElementById("listItem7").style = "pointer-events: all";
+  document.getElementById("listItem8").style = "pointer-events: all";
 }
-  // animate links
-
-
-
-navSlide();
-
-window.onscroll = () => {
-  const nav = document.querySelector('#navbar');
-  if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
-};
