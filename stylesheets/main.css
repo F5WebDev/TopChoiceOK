@@ -140,26 +140,6 @@ html {
   animation-delay: 1s;
   animation-fill-mode: forwards;
 }
-/*#services-btn {
-  border: 2px solid black;
-  background: white;
-  color: black;
-  padding: 15px;
-  font-size: 18px;
-  font-weight: bolder;
-  border-radius: 5px;
-  text-decoration: none;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
-
-  background-image: linear-gradient(to right, black 50%, transparent 0%);
-  background-position: 100% 0%;
-  background-size: 200% 100%;
-  transition: 1s;
-}
-#services-btn:hover {
-  color: white;
-  background-position: 0% 50%;
-}*/
 
 #estimates-btn {
   border: 1px solid #0f4c75;
