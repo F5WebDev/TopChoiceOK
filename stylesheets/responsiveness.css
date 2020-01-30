@@ -4,6 +4,10 @@
     font-size: 40px;
   }
 
+  #banner-video {
+    display: none;
+  }
+
   /*navbar*/
   .call-now-btn {
     display: none;

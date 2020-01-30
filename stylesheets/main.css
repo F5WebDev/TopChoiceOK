@@ -76,7 +76,9 @@ html {
 }
 
 
-
+#banner-video {
+  margin-top: 80px;
+}
 
 .desktop-banner {
   display: none;
