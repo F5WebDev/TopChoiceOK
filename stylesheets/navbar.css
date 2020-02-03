@@ -24,27 +24,30 @@
   height: 100px;
 }
 
-#background-black {
-  background-color: red;
-}
+/*#background-black {
+  background-color: black;
+}*/
 .navbar-links ul {
-  margin-top: 0px;
+  margin: 0px;
   padding: 0px;
   display: flex;
+  width: 100%;
   z-index: 100;
 }
 .navbar-links li {
+  width: 100%;
+  height: 100%;
   list-style: none;
   margin-right: 1rem;
   font-weight: bolder;
-  margin: 10px;
+  background-color: black;
 }
 .navbar-links li:hover {
   cursor: pointer;
 }
 .navbar-links li a {
   text-decoration: none;
-  color: yellow;
+  color: white;
   padding: 1rem;
   pointer-events: all;
 }
