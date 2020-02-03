@@ -13,6 +13,43 @@
 
 
 
+  /*  shingles pages*/
+  .shingles-header {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .shingles-header h1 {
+    font-size: 32px;
+    font-weight: bolder;
+  }
+  .shingles-header p {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 20px;
+  }
+
+
+
+/*  siding page*/
+  .desktop-siding-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+
+  /*remodeling page*/
+  .remodeling-caption {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .remodeling-caption p {
+    font-size: 18px;
+  }
+
+
+
   /*insurance cliams */
   .start-a-claim {
     text-align: center;
@@ -24,16 +61,51 @@
   .insurance-claims p {
     font-size: 40px;
   }
+  #insurance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #insurance img {
+    width: auto;
+    height: 400px;
+  }
+
+
+  .insurance-process {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .insurance-process p {
+    font-size: 28px;
+    font-weight: bolder;
+  }
+
+  .desktop-insurance-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .insurance-claims-buttons {
     width: 100%;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     padding-bottom: 50px;
   }
   .clickable-insurance-image img {
-    width: 150px;
+    margin: 30px;
+  }
+
+
+  #allstate {
+    margin-top: -50px;
+  }
+  #chubb {
+    padding-top: 50px;
+  }
+  #country {
+    padding-top: 20px;
   }
 }

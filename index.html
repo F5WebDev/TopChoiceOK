@@ -38,7 +38,7 @@
   <link rel="stylesheet" href="stylesheets/secondary-pages-responsiveness.css">
   <link rel="stylesheet" href="stylesheets/footer.css">
 
-   <script src="javascript/navbar.js" defer></script>
+  <script src="javascript/navbar.js" defer></script>
 
 
 <!--   fonts -->
@@ -46,52 +46,55 @@
 </head>
 <body>
 
-  <nav class="mobile-nav">
+  <nav class="navbar">
 
-    <div class="dropdown">
+    <div class="brand-title"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
 
-      <button><a id="home" href="index.html"><img src="images/logo.png" alt=""></a></button>
+    <div class="desktop-phone">918-899-1222</div>
 
-      <div id="desktop-call">918-899-1222</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
 
-        <div class="products">
-          <button id="navbarClick"><i class="fas fa-grip-lines"></i></button>
-          <ul id="unorderedList">
-            <li id="listItem9"><a href="tel:+19188991222">Call Now</a></li>
-            <hr id="small-white-line">
-            <li id="listItem1"><a href="roofing.html">Residential Roofing</a></li>
-            <hr id="small-white-line">
-            <li id="listItem2"><a id="indented-li" href="insurance.html"> Insurance Claims</a></li>
-            <li id="listItem3"><a id="indented-li" href="shingles.html"> Choose Your Shingle</a></li>
-            <hr id="small-white-line">
-            <li id="listItem4"><a href="commercial-roofing.html">Commercial Roofing</a></li>
-            <li id="listItem5"> <a href="remodeling.html">Remodeling</a></li>
-            <li id="listItem6"><a href="restoration.html">Restoration</a></li>
-            <li id="listItem7"><a href="siding.html">Siding</a></li>
-            <li id="listItem8"><a href="painting.html">Painting</a></li>
-          </ul>
-        </div>
+    <div class="navbar-links">
 
-      </div>
+      <ul>
+        <li><a href="tel:+19188991222">Call Now</a></li>
+        <li><a href="roofing.html">Residential Roofing</a></li>
+        <li><a href="insurance.html">Insurance Claims</a></li>
+        <li><a href="shingles.html">Choose Your Shingle</a></li>
+        <li><a href="commercial-roofing.html">Commercial Roofing</a></li>
+        <li><a href="remodeling.html"> Remodeling</a></li>
+        <li><a href="restoration.html">Restoration</a></li>
+        <li><a href="siding.html">Siding</a></li>
+      </ul>
+    </div>
+
   </nav>
+
+
 
  <!--  <div class="mobile-banner" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/topchoice-banner1.jpg)">
   </div> -->
-  <iframe id="banner-video" src="https://player.vimeo.com/video/321800214?autoplay=1" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  <div class="desktop-banner" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/topchoice-banner1.jpg)">
+  <div class="desktop-header">
+
+    <iframe id="banner-video" width="100%" height="315" src="https://www.youtube.com/embed/QrTlpU3Qsgc?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <section class="below-banner">
+      <div class="below-banner-top">
+        <h1>Roofing & Construction <br> done right.</h1>
+        <h2>Over the last decade, we've helped more than 1000 people in the Tulsa area protect, restore, and remodel their homes.</h2>
+      </div>
+
+      <div class="banner-buttons">
+        <a id="estimates-btn" href="tel:+19188991222">Free Estimate</a>
+      </div>
+    </section>
+
   </div>
-
-
-  <section class="below-banner">
-    <div class="below-banner-top">
-      <h1>Roofing & Construction done right.</h1>
-      <h2>Over the last decade, we've helped 1000+ people in the Tulsa area protect, restore, and remodel their homes! </h2>
-    </div>
-
-    <div class="banner-buttons">
-      <a id="estimates-btn" href="tel:+19188991222">Free Estimate</a>
-    </div>
-  </section>
 
   <hr id="vertical-blue-line">
 
@@ -103,29 +106,20 @@
       <hr id="desktop-line">
     </div>
 
-    <div class="desktop-icon-flex">
+    <div class="icon-flex">
       <div id="blue-background" class="icon-block">
-        <a id="smooth-scroll-icon" href="#sectionRoofing">
-          <img src="images/roof-icon-white.png" alt="">
-          <span id="white-text">Roofing</span>
-          <span id="small-text">Residential & Commercial</span>
-        </a>
+        <img src="images/roof-icon-white.png" alt="">
+        <p>Roofing</p>
       </div>
 
       <div id="black-background" class="icon-block">
-        <a id="smooth-scroll-icon" href="#sectionRestoration">
-          <img src="images/restoration-icon-white.png" alt="">
-          <span id="white-text">Restoration</span>
-          <span id="small-text">Water, Fire, Tornado</span>
-        </a>
+        <img src="images/restoration-icon-white.png" alt="">
+        <p>Restoration</p>
       </div>
 
       <div id="grey-background" class="icon-block">
-        <a id="smooth-scroll-icon" href="#sectionRemodel">
-          <img src="images/remodel-icon-white.png" alt="">
-          <span id="white-text">Remodels</span>
-          <span id="small-text">Interior & Exterior</span>
-        </a>
+        <img src="images/remodel-icon-white.png" alt="">
+          <p>Remodels</p>
       </div>
     </div>
 
@@ -180,22 +174,12 @@
       </a>
     </div>
 
-    <div class="card-product">
-      <a href="painting.html">
-        <img src="images/painting1.jpeg" />
-        <div class="card-product-infos">
-          <h2>Painting</h2>
-          <p>Tired of the same old color? Our team of professionals will be in and out, without a trace left behind!</p>
-        </div>
-      </a>
-    </div>
-
     <div id="extra-margin-btm" class="card-product">
       <a href="siding.html">
         <img src="images/siding2.jpeg" />
         <div class="card-product-infos">
           <h2>Siding</h2>
-          <p>Siding is one of the easiest ways to enhance the curb appeal of your home, repair structural damage, and increase energy efficiency!</p>
+          <p>We are a certified installer of James Hardie Siding with more than five years’ experience in siding products and installation.</p>
         </div>
       </a>
     </div>
@@ -344,6 +328,35 @@
 
     </div>
  <!-- end of second desktop service card flex -->
+
+ <div class="desktop-service-card-flex">
+
+      <div class="service-card">
+
+        <div id="sectionRestoration" class="upper-card" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/siding3.jpeg);">
+          <div class="upper-card-container">
+            <h1>Siding</h1>
+          </div>
+        </div>
+
+        <div class="lower-card">
+          <div class="lower-card-container">
+            <ul id="desktop-services-flex">
+              <li><img id="desktop-james-hardie" src="images/james-hardie-logo.png" alt=""></li>
+  <!--             <li>Hurricane.</li> -->
+            </ul>
+            <div class="lower-card-description">
+              <p>We are a certified installer of James Hardie Siding with more than five years’ experience in siding products and installation. James Hardie fiber cement siding is the world leader in durability, resists fire, weather, and pests. It always comes with a 30-year warranty.</p>
+            </div>
+            <div class="learn-more-btn">
+              <a href="siding.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+<!--     end of third service card flex -->
+    </div>
 
   </div>
 

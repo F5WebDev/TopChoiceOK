@@ -6,13 +6,7 @@
   text-align: center;
 }
 
-.shingle-companies {
-  margin-bottom: 0;
-}
-.shingle-types {
-  height: 100%;
-  margin: 0 auto;
-}
+
 #margin-top {
   margin-top: 50px;
 }
@@ -26,10 +20,39 @@
 .carousel-caption {
   color: white;
 }
-.shingles-header {
-  margin-bottom: 20px;
+
+
+.slideshow-container {
   text-align: center;
 }
+.slideshow-container h3 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+
+
+.shingles-header {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.shingles-header h1 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+.shingles-header p {
+  padding: 1.5rem;
+  text-align: left;
+  font-size: 18px;
+}
+
+
+.carousel {
+  margin-bottom: 100px;
+}
+
+
 .secondary-pages-container {
   padding-top: 20px;
   width: 90%;
@@ -89,7 +112,7 @@
 }
 .start-a-claim {
   text-align: center;
-  margin: 0;
+  margin-top: 100px;
   font-size: 24px;
 }
 .insurance-process p {
@@ -113,20 +136,98 @@
   font-size: 16px;
 }
 .clickable-insurance-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .clickable-insurance-image img {
-  width: 100%;
-}
-#progressive {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-#smaller-insurance-logo {
   height: 100px;
+  width: auto;
+}
+#aaa img {
+  height: 80px;
+  margin-top: 50px;
+}
+#allstate img {
+  height: 200px;
+  margin-bottom: -40px;
+}
+#chubb {
   margin-bottom: 50px;
 }
-#smaller-insurance-logo img {
-  height: 200px;
+#country img {
+  height: 50px;
+  margin-bottom: 50px;
 }
+#hartford {
+  margin-bottom: 50px;
+}
+#farmers {
+  margin-bottom: 50px;
+}
+#geico img {
+  height: 30px;
+  margin-bottom: 50px;
+}
+#liberty img {
+  margin-bottom: 50px;
+}
+#metlife img {
+  height: 50px;
+  margin-bottom: 50px;
+}
+#nationwide img {
+  height: 120px;
+  margin-bottom: 50px;
+}
+#progressive img {
+  height: 30px;
+  margin-bottom: 50px;
+}
+#safeco {
+  margin-bottom: 50px;
+}
+#statefarm img {
+  height: 40px;
+  margin-bottom: 50px;
+}
+#travelers img {
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+/*siding page*/
+#james-hardie {
+  margin-top: 10px;
+  height: 50px;
+}
+.siding-ul {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.siding-ul li {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+
+/*remodeling page*/
+.remodeling-caption {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+
