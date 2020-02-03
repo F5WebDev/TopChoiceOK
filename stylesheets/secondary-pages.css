@@ -31,7 +31,10 @@
 }
 
 
-
+#bootstrap-left-posiiton {
+  position: relative;
+  right: 90px;
+}
 .shingles-header {
   margin-top: 20px;
   margin-bottom: 50px;
