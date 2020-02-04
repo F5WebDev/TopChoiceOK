@@ -90,24 +90,27 @@
   text-align: left;
 }
 .center-flex {
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .secondary-page-btn {
-  margin-top: 50px;
+  margin-top: 30px;
   text-align: center;
   border: 1px solid #0f4c75;
   background: #0f4c75;
   padding: 20px;
   width: 50%;
   box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
-  margin-bottom: 50px;
 }
 .secondary-page-btn a {
   color: white;
   text-decoration: none;
+}
+#margin-bottom {
+  margin-bottom: 50px;
 }
 
 
