@@ -4,15 +4,15 @@
   height: 120px;
   width: 100%;
   z-index: 10;
-  display: flex;
+
+  display: flex !important;
   justify-content: space-between;
   align-items: center;
   background: white;
-  color: black;
 
   padding-top: 10px;
   padding-bottom: 10px;
-  box-shadow: 0px 5px 5px rgba(0,0,0,0.5)
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
 }
 
 
@@ -24,9 +24,6 @@
   height: 100px;
 }
 
-/*#background-black {
-  background-color: black;
-}*/
 .navbar-links ul {
   margin: 0px;
   width: 100%;
@@ -66,6 +63,7 @@
   justify-content: space-between;
   width: 30px;
   height: 20px;
+  cursor: pointer;
 }
 .toggle-button .bar {
   height: 3px;

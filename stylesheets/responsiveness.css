@@ -18,6 +18,12 @@
 }
 
 @media screen and (min-width: 800px) {
+  .floating-call-btn {
+    display: none;
+  }
+  .floating-txt-btn {
+    display: none;
+  }
   #center-text {
     text-align: center;
     font-size: 40px;

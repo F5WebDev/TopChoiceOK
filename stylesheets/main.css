@@ -275,3 +275,41 @@ google*/
   font-size: 32px;
   font-weight: bolder;
 }
+
+
+
+
+/*floating buttons*/
+.floating-call-btn {
+  position: fixed;
+  right: 0;
+  bottom: 40px;
+  background: #0f4c75;
+  padding: 15px;
+  border-radius: 5px;
+}
+.floating-call-btn i {
+  color: white;
+  font-size: 24px;
+}
+.floating-txt-btn {
+  position: fixed;
+  right: 0;
+  bottom: 100px;
+  background: #0f4c75;
+  padding: 15px;
+  border-radius: 5px;
+}
+.floating-txt-btn i {
+  color: white;
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+

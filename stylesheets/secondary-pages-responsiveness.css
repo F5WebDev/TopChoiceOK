@@ -1,4 +1,11 @@
 @media screen and (min-width: 800px) {
+  .floating-call-btn {
+    display: none;
+  }
+  .floating-txt-btn {
+    display: none;
+  }
+
   .secondary-pages-container {
     width: 90%;
     margin: 0 auto;
