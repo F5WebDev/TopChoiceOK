@@ -4,7 +4,7 @@ footer {
   color: white;
   text-align: left;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 #footer-container-header {
@@ -35,11 +35,16 @@ footer {
 }
 
 .f5webdev {
-  margin-top: 80px;
+  margin-top: 20px;
+}
+.f5webdev img {
+  height: 50px;
 }
 .f5webdev a {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .copyright {
