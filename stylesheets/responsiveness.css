@@ -264,4 +264,9 @@
   .google-map {
     display: none;
   }
+  .f5webdev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
