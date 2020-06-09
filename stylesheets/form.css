@@ -73,8 +73,8 @@
   }
   .personal-info-block input,
   .personal-info-block select,
-  .personal-info-block textarea,
-  .newsletter  {
-    width: 50%;
+  .personal-info-block textarea
+   {
+    width: 250px;
   }
 }
