@@ -77,7 +77,7 @@ html {
 
 
 #banner-video {
-  margin-top: 7.5rem;
+  margin-top: 80px;
 }
 
 .desktop-banner {
@@ -285,7 +285,7 @@ google*/
   bottom: 0px;
   width: 100%;
   background: #0f4c75;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
 .floating-call-btn i {
@@ -294,7 +294,7 @@ google*/
 }
 .floating-call-btn a {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
 }
 
