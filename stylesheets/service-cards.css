@@ -19,18 +19,28 @@
 
 /*moible service cards*/
 .card-product {
+}
+.upper-card-product {
   width: 100%;
   box-shadow: 0 15px 15px rgba(0,0,0,0.2);
-}
-.card-product a {
-  overflow: hidden;
   height: 200px;
   background: white;
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
   text-decoration: none;
   color: black;
+}
+.lower-card-product {
+  margin-bottom: 50px;
+  background: #0f4c75;
+  text-align: center;
+  padding: 10px;
+}
+.lower-card-product a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  width: 300px;
 }
 
 .card-product img {

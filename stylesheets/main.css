@@ -98,13 +98,13 @@ html {
   margin-top: 30px;
 
 /*  for animation*/
-  position: relative;
-  left: -100%;
+/*  position: relative;
+  left: -100%;*/
 /*  animation: slideIn 1s forwards;*/
-  animation-name: slideIn;
+/*  animation-name: slideIn;
   animation-duration: 1s;
   animation-delay: 0s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
 }
 .below-banner h1 {
   font-size: 44px;
@@ -134,14 +134,14 @@ html {
   justify-content: space-around;
 
   /*  for animation*/
-  position: relative;
-  left: -100%;
+/*  position: relative;
+  left: -100%;*/
   /*animation: slideIn 1s 1s forwards;*/
-  animation: slideIn 1s forwards;
+/*  animation: slideIn 1s forwards;
   animation-name: slideIn;
   animation-duration: 1s;
   animation-delay: 1s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
 }
 
 #estimates-btn {
@@ -282,27 +282,20 @@ google*/
 /*floating buttons*/
 .floating-call-btn {
   position: fixed;
-  right: 0;
-  bottom: 40px;
+  bottom: 0px;
+  width: 100%;
   background: #0f4c75;
   padding: 15px;
-  border-radius: 5px;
+  text-align: center;
 }
 .floating-call-btn i {
   color: white;
   font-size: 24px;
 }
-.floating-txt-btn {
-  position: fixed;
-  right: 0;
-  bottom: 100px;
-  background: #0f4c75;
-  padding: 15px;
-  border-radius: 5px;
-}
-.floating-txt-btn i {
+.floating-call-btn a {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 

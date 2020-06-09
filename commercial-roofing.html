@@ -15,7 +15,7 @@
   <title>Commercial Roofing | Top Choice Roofing & Construction</title>
 
   <!--   og tags/social media -->
-  <link rel=”canonical” href=”https://www.tcrcok.services”/>
+  <link rel=”canonical” href=”https://www.tcrc.services”/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Top Choice Roofing & Construction | Oklahoma"/>
@@ -31,6 +31,7 @@
 <!--   CSS -->
   <link rel="stylesheet" href="stylesheets/navbar.css">
   <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="stylesheet" href="stylesheets/form.css">
   <link rel="stylesheet" href="stylesheets/service-cards.css">
   <link rel="stylesheet" href="stylesheets/secondary-pages.css">
   <link rel="stylesheet" href="stylesheets/slideshow.css">
@@ -127,6 +128,60 @@
     <p id="align-left">Here at Top Choice Roofing and Construction LLC, we have all of your business' roofing needs covered: maintenance, repairs, re-roofing, or new construction. If you're not sure which of these services your business needs, we offer FREE inspections. <br><br> We promise to always work FOR YOU, and not your insurance, and to always offer you the most cost-effective solutions for you and your budget.</p>
   </div>
 
+  <div class="hire-form" style="background: #f7f7f7;">
+      <div class="hire-form-container">
+        <div class="hire-form-header">
+          <h2>Request a FREE Estimate</h2>
+        </div>
+        <form action="https://formspree.io/mlepnrwr" method="POST">
+
+          <div class="personal-info">
+
+            <div class="personal-info-block">
+              <label id="fname-label" class="label" for="fname">Full name:</label>
+              <br>
+              <input type="text" id="fname" name="fname" autocomplete="off" required>
+            </div>
+
+            <div class="personal-info-block">
+              <label id="email-label" class="label" for="email">Email:</label>
+              <br>
+              <input type="email" id="email" name="email" autocomplete="off" required>
+            </div>
+
+            <div class="personal-info-block">
+              <label id="phone-label" class="label" for="phone">Phone #:</label>
+              <br>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" autocomplete="off" required>
+            </div>
+
+            <div class="personal-info-block">
+              <label for="services">Service Type:</label>
+              <br>
+              <select name="services" id="services" form="serviceform">
+                <option value="roofing">Roofing</option>
+                <option value="remodeling">Remodeling</option>
+                <option value="restoration">Restoration</option>
+                <option value="siding">Siding</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="personal-info-block">
+              <label for="more-info">Addt'l Info</label>
+              <br>
+              <textarea id="more-info" name="more-info"></textarea>
+            </div>
+
+            <div class="submit-btn">
+              <button type="submit" id="submit-btn">Submit ></button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
   <footer>
 
     <div class="footer-container">
@@ -168,11 +223,7 @@
   </footer>
 
   <div class="floating-call-btn">
-    <a href="tel:+19188991222"><i class="fas fa-phone"></i></a>
-  </div>
-
-  <div class="floating-txt-btn">
-    <a href="sms:+19188991222"><i class="fas fa-sms"></i></a>
+    <a href="tel:+19188991222"><i class="fas fa-phone"></i> Call Now</a>
   </div>
 
 </body>
