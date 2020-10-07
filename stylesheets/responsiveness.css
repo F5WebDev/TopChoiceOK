@@ -155,10 +155,12 @@
   .icon-flex {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
   }
   .icon-block {
-    height: 300px;
-    width: 34%;
+    height: 100%;
+    padding: 25px 0px;
+    width: 25%;
   }
 
   #desktop-james-hardie {
