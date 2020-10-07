@@ -170,6 +170,7 @@ html {
 
 .icon-flex {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 .icon-block {
@@ -179,7 +180,7 @@ html {
   justify-content: center;
   height: 150px;
   color: white;
-  width: 34%;
+  width: 50%;
 }
 .icon-block img {
   width: 33%;
@@ -287,6 +288,7 @@ google*/
   background: #0f4c75;
   padding: 10px;
   text-align: center;
+  z-index: 9999;
 }
 .floating-call-btn i {
   color: white;
