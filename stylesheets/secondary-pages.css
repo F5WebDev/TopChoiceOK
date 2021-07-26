@@ -239,5 +239,19 @@
 
 
 
+/* siding udpates */
+.siding-hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.siding-hero-img img {
+}
+
+
+
+
+
 
 
