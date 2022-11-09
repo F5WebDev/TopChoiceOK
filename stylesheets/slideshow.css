@@ -5,7 +5,7 @@
   margin: auto;
 }
 .slideshow-container img {
-  height: 300px;
+  height: 600px;
   object-fit: cover;
 }
 
